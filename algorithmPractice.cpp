@@ -10,7 +10,6 @@ using namespace std;
 /* Initialize random seed:
 	srand(time(NULL));
 	int = rand() %
-
 */
 
 vector<string> addSound(string input, vector<string> v) {
@@ -109,26 +108,6 @@ int main()
 			//Call the function searchSound()
 			searchSound(found, vect); //b.c searchSound is void 
 		}
-
-
-
-		//Step2: Check if the user enter the number that coresponding sound from 1 to 5
-		/*if (user_input == "1") {
-			cout << "The cat goes \"meow\". "; //this foward \\ to display a quote in a string. 
-		}
-		if (user_input == "2") {
-			cout << "The dog goes \"goof\". ";
-		}
-		if (user_input == "3") {
-			cout << "The cow goes \"moo\". ";
-		}
-		if (user_input == "4") {
-			cout << "The fox goes \"ding ding\". ";
-		}
-		if (user_input == "5") {
-			cout << "The lion goes \"roar roar\". ";
-		}
-		*/
 
 		// Make line 38 to 52 into an array for a clean code.
 		string arr_Sound[5];
